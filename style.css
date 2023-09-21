@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    display: inline;
+}
+main {
+    padding: 10px;
+}
+.logo {
+    font-size: 20px;
+    font-family: 'Pacifico', sans-serif;
+    padding: 5px 0;
+}
+nav {
+    display: flex;
+    background-color: #2E4F4F;
+    justify-content: space-around;
+    padding: 15px 0;
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+section {
+    margin: auto;
+    display: flex;
+    padding: 70px;
+}
+.content{
+    margin: auto;
+    position: relative;
+}
+h1{
+    font-size: 50px;
+}
+p {
+    line-height: 19px;
+    padding-bottom: 7px;
+}
+span{
+    color: #D80032;
+}
+.deskripsi {
+    margin: 90px 20px 90px 100px;
+    line-height: 40px;
+    padding-right: 250px;
+}
+.deskripsi a {
+    text-decoration: none;
+    background-color: #2E4F4F;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.deskripsi a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.gambar{
+    padding-top: 20px;
+}
+.card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
+.keterangan {
+    margin-right: 90px;
+}
+.keterangan table {
+    background-color: rgba(191, 207, 243, 0.37);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left: 100px;
+}
+.gambar-dua {
+    padding: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+tr td{
+    background-color: white;
+    padding: 5px;
+    border:1px solid rgb(161, 160, 160);
+    border-radius: 3px;
+}
+h4{
+    text-align: center;
+    padding: 30px;
+}
+.card-dua {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgba(245,247,252,1) 0%,rgba(137,171,245,0.37) 100.2%);
+}
+.gambar-tiga {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.card-tiga {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
+.box-1 {
+    padding: 100px 250px 100px 250px;
+}
+.p-1{
+    background-color: #2E4F4F;
+    padding: 7px 300px 7px 50px;
+    border-radius: 7px;
+}
+.p-2{
+    background-color: #2E4F4F;
+    padding: 7px 300px 7px 50px;
+    border-radius: 7px;
+}
+.p-3{
+    background-color: #2E4F4F;
+    padding: 7px 300px 7px 50px;
+    border-radius: 7px;
+}
+.p-4{
+    background-color: #2E4F4F;
+    padding: 7px 300px 7px 50px;
+    border-radius: 7px;
+}
+.card-empat {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgba(245,247,252,1) 0%,rgba(137,171,245,0.37) 100.2%);
+}
+.box-2 {
+    padding: 100px 250px 100px 300px;
+}
+.garis-1 {
+    background-color: white;
+    padding: 0 200px 0 5px;
+    border-radius: 3px;
+}
+.garis-2 {
+    background-color: white;
+    padding: 0 180px 0 5px;
+    border-radius: 3px;
+}
+.garis-3 {
+    background-color: white;
+    padding: 0 130px 0 5px;
+    border-radius: 3px;
+}
+.garis-4 {
+    background-color: white;
+    padding: 0 110px 0 5px;
+    border-radius: 3px;
+}
+.card-lima {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
+.card-enam {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgba(245,247,252,1) 0%,rgba(137,171,245,0.37) 100.2%);
+}
+.gmbr img{
+    width: 150px;
+    height: 150px;
+    padding: 0px 50px 0px 60px;
+}
+.box-3{
+    padding: 70px 250px 70px 100px;
+    display: flex;
+}
+.box-3 .gmbr h4 {
+    padding-left: 0px;
+}
+.card-tujuh {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
+.data-info {
+    background-color: rgb(161, 160, 160);
+    padding: 50px 0px 50px 0px;
+}
+.data {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+.info {
+    width: 20%;
+    margin: 0px auto;
+}
+footer {
+    padding: 20px;
+    color:#fff;
+    background-color:#2E4F4F;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #121212;
+}
+/* css button menu untuk tampilan mobile */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -6px;
+    top: -6px;
+    opacity:0;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #9E9FA5;
+    border-radius: 3px;
+    transition: all 0.7s;
+}
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(1px,-1px);
+    background-color: white;
+}
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(1px,0);
+    background-color: white;
+}
+.menu-toggle input:checked ~ span:nth-child(3){
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* css responsive pada tampilan mobile */
+@media screen and (max-width: 576px) {
+    nav ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 40%;
+        align-items: center;
+        transform: translateX(100%);
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: black;
+        z-index: -1;
+        transition: all 1s;
+        background-color: #2E4F4F;
+        opacity: 0;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    nav ul.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    section {
+        display: block;
+    }
+    .deskripsi {
+        margin: 50px 20px 50px 30px;
+        line-height: 40px;
+        padding-right: 70px;
+    }
+    .gambar{
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .card {
+        padding-left: 10px;
+    }
+
+    .gambar-dua img{
+        width: 160px;
+        height: 160px;
+    }
+    .gambar-dua {
+        padding-bottom: 5px;
+        margin-left: 75px;
+    }
+    .keterangan table{
+        margin-top: 5px;
+    }
+    .gambar-tiga img{
+        width: 140px;
+        height: 140px;
+        padding: 20px;
+    }
+    .gambar-tiga h4{
+        padding-right: 100px;
+        padding-bottom: 5px;
+    }
+    .box-1 {
+        padding-left: 40px;
+        display: inline;
+    }
+
+    .box-1 p{
+        padding: 10px 300px 10px 20px;
+    }
+    .box-2{
+        padding-left: 2px;
+    }
+    .box-3 {
+        display: block;
+    }
+    .box-3 .gmbr h4{
+        padding-left: 90px;
+        padding-top: 5px; 
+    }
+    .data {
+        width: 50%;
+        display: block;
+        text-align: center;
+        padding-left: 35px;
+    }
+    .info {
+        display: inline;
+    }
+}
